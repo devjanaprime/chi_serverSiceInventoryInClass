@@ -1,6 +1,6 @@
 Server Side Inventory
 =====================
-in-class 3-16-2017
+in-class: 3-16-2017
 
 Overview:
 In this project we'll create a project that tracks an inventory on the server. Also, we'll explore Express routing through custom modules.
@@ -36,3 +36,28 @@ Steps:
 [ ] test JQ interactive elements
 
 [ ] setup 'inventory.js' with temp inventory array and GET route to return said array
+
+[ ] GET AJAX call to inventory returns array
+
+[ ] POST AJAX call to inventory adds new item to array on the server
+
+[ ] display inventory on DOM
+
+[ ] POST AJAX call to check if any objects' names contain the given search string & return appropriate array
+
+Stretch Goals:
+==============
+
+[ ] clear appropriate input(s) on successful add
+
+[ ] clear appropriate search input(s) on search completion
+
+[ ] add search functionality for description
+
+[ ] display "no matches" if empty array is returned for a search
+
+[ ] "remove" button for each item
+
+[ ] "remove" route for inventory controller
+
+[ ] search functionality for both name and description
